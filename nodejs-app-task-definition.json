@@ -2,7 +2,7 @@
     "taskDefinitionArn": "arn:aws:ecs:eu-west-2:821465445175:task-definition/nodejs-app-task-definition:1",
     "containerDefinitions": [
         {
-            "name": "nodejs-app",
+            "name": "nodejs-app-container",
             "image": "821465445175.dkr.ecr.eu-west-2.amazonaws.com/cicd-deployed-images/nodejs-app:latest",
             "cpu": 0,
             "portMappings": [
