@@ -9,7 +9,7 @@ env:
   ECS_TASK_DEFINITION: nodejs-app-task-definition.json 
   ECS_CONTAINER_NAME: nodejs-app-container
   ECS_SERVICE: nodejs-app-service 
-  ECS_CLUSTER: demo-dev-cluster
+  ECS_CLUSTER: demo-dev-cluster 
 
 
 jobs:
